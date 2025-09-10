@@ -49,6 +49,10 @@ modules:
       - type: git
         tag: '1.3'
         url: https://github.com/GameTec-live/ChameleonUltraGUI.git
+        x-checker-data:
+          type: git
+          version-scheme: semantic
+          tag-pattern: ^([\d.]+)$
       - type: file
         dest-filename: run.chameleon.chameleonultragui.metainfo.xml
         url: https://raw.githubusercontent.com/GameTec-live/ChameleonUltraGUI/3716e764f9e8c5c151d5b9b2127fb28b6b5151fe/chameleonultragui/flatpak/run.chameleon.chameleonultragui.metainfo.xml
